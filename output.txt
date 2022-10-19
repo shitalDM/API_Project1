@@ -1,0 +1,200 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -38.383494,
+        "lng": 33.427362
+    },
+    "accuracy": 51,
+    "name": "Shital",
+    "phone_number": "874563210",
+    "address": "Line 23, UAS",
+    "types": [
+        "my1",
+        "my1"
+    ],
+    "website": "abc@gyn.org",
+    "language": "English"
+}
+HTTP/1.1 200 OK
+Date: Mon, 10 Oct 2022 12:54:03 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "820067da024b8caa565d588948df3a6d",
+    "scope": "APP",
+    "reference": "6d0cda89a85fcf5561a0be7e0f5e429d6d0cda89a85fcf5561a0be7e0f5e429d",
+    "id": "6d0cda89a85fcf5561a0be7e0f5e429d"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=820067da024b8caa565d588948df3a6d
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=820067da024b8caa565d588948df3a6d
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Mon, 10 Oct 2022 12:54:03 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 209
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "51",
+    "name": "Shital",
+    "phone_number": "874563210",
+    "address": "Line 23, UAS",
+    "types": "my1,my1",
+    "website": "abc@gyn.org",
+    "language": "English"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -38.383494,
+        "lng": 33.427362
+    },
+    "accuracy": 81,
+    "name": "Fang Lang",
+    "phone_number": "9874563210",
+    "address": "road bay, Seashore, HK",
+    "types": [
+        "my1",
+        "my1"
+    ],
+    "website": "axc@gym.org",
+    "language": "CHinese"
+}
+HTTP/1.1 200 OK
+Date: Mon, 10 Oct 2022 12:54:04 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "2ffedb2aa22c45a4427a779b32d42573",
+    "scope": "APP",
+    "reference": "afc0f7a60981486b31631f676da317a5afc0f7a60981486b31631f676da317a5",
+    "id": "afc0f7a60981486b31631f676da317a5"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=2ffedb2aa22c45a4427a779b32d42573
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=2ffedb2aa22c45a4427a779b32d42573
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Mon, 10 Oct 2022 12:54:04 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 223
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "81",
+    "name": "Fang Lang",
+    "phone_number": "9874563210",
+    "address": "road bay, Seashore, HK",
+    "types": "my1,my1",
+    "website": "axc@gym.org",
+    "language": "CHinese"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "2ffedb2aa22c45a4427a779b32d42573"
+}
+HTTP/1.1 200 OK
+Date: Mon, 10 Oct 2022 12:54:05 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
+}
