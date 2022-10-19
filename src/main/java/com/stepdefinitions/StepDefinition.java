@@ -37,6 +37,7 @@ public class StepDefinition extends Utils{
 	public void add_place_payload(int accuracy, String address, String language, String name, String phone, String website) {
 		req=given().spec(requestSpecifications())
 				.body(data.addPlacePayload(accuracy,address,language,name,phone,website)); //accuracy,address,language,name,phone,website
+		System.out.println("Line 1 added to StepDefinition.java file");
 	}
 	
 	@When("user calls {string} with {string} http request and")
@@ -58,6 +59,7 @@ public class StepDefinition extends Utils{
 	@Then("API call got is success with status code is {int}")
 	public void api_call_got_is_success_with_status_code_is(int statusCode) {
 		Assert.assertEquals(response.getStatusCode(), statusCode);
+		System.out.println("Line 2 added to StepDefinition.java file");
 	}
 	@And("{string} in response body is {string}")
 	public void in_response_body_is(String key, String expectedValue) {
